@@ -125,6 +125,9 @@ function onSwitcherBackClick() {
     if(currentWeapon === 0) {
         currentWeapon = weapons.length - 1;
     }
+    else {
+        currentWeapon--;
+    }
 
     var BBoxCenter = new THREE.Box3().setFromObject(weapons[currentWeapon][0]).getCenter();
     document.getElementById('weaponLabel').innerText = weapons[currentWeapon][1];
@@ -136,6 +139,9 @@ function onSwitcherBackClick() {
 function onSwitcherForwardClick() {
     if(currentWeapon + 1 >= weapons.length) {
         currentWeapon = 1;
+    }
+    else {
+        currentWeapon++;
     }
 
     var BBoxCenter = new THREE.Box3().setFromObject(weapons[currentWeapon][0]).getCenter();
