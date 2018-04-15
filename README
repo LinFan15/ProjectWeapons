@@ -1,0 +1,7 @@
+All our code can be found in the index.html file.
+The 3D objects and their textures can be found in the objects folder.
+
+To start the application, make sure nodeJS is installed 
+and open a terminal in the root folder of the project (the folder containing the index.html file) and execute the following commands in order:
+1. npm install
+2. npm start

@@ -1,0 +1,80 @@
+newmtl barrel_bottomSG
+illum 4
+Kd 0.16 0.16 0.16
+Ka 0.50 0.50 0.50
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks R700_materials_barrel_bottom_Specular.png
+newmtl barrel_ringSG
+illum 4
+Kd 0.16 0.16 0.16
+Ka 0.69 0.69 0.69
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks R700_materials_barrel_ring_Specular.png
+newmtl barrel_upperSG
+illum 4
+Kd 0.16 0.16 0.16
+Ka 0.70 0.70 0.70
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks R700_materials_barrel_upper_Specular.png
+newmtl boltSG
+illum 4
+Kd 0.16 0.16 0.16
+Ka 0.70 0.70 0.70
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks R700_materials_bolt_Specular.png
+newmtl colfSG
+illum 4
+Kd 0.02 0.01 0.00
+Ka 0.06 0.06 0.06
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks R700_materials_colf_Specular.png
+newmtl colf_bottomSG
+illum 4
+Kd 0.06 0.05 0.03
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks R700_materials_colf_bottom_Specular.png
+newmtl magSG
+illum 4
+Kd 0.16 0.16 0.16
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks R700_materials_trigger_gaurd_Specular.png
+newmtl triggerSG
+illum 4
+Kd 0.38 0.38 0.38
+Ka 0.50 0.50 0.50
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks R700_materials_trigger_Specular.png
+newmtl trigger_Housing_SchroefSG
+illum 4
+Kd 0.36 0.36 0.38
+Ka 0.66 0.66 0.70
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks R700_materials_trigger_housing_Specular.png
+newmtl trigger_guardSG
+illum 4
+Kd 0.16 0.16 0.16
+Ka 0.63 0.63 0.63
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks R700_materials_trigger_gaurd_Specular.png

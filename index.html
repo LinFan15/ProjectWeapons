@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>Project Remington</title>
+		<link rel="shortcut icon" href="favicon.jpg">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<script src="js/three.js"></script>
+		<script src="js/inflate.min.js"></script>
+        <script src="js/controls/OrbitControls.js"></script>
+		<script src="js/loaders/OBJLoader.js"></script>
+		<script src="js/loaders/MTLLoader.js"></script>
+		<script src="js/helpers/init_helper.js"></script>
+		<script src="js/gun_loaders/R700_loader.js"></script>
+		<script src="js/gun_animators/R700_animator.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.5/howler.min.js" integrity="sha256-kIkROHue+GFp6vhajZDKle5ISIkWrxcJKHZwLzT893A=" crossorigin="anonymous"></script>
+		<script src="js/app.js" defer></script>
+
+		<div id="weaponSwitchContainer" class="controlsContainer">
+			<div id="innerSwitchContainer">
+				<a id="switcherBack" class="switcherLink"> < </a>
+				<span id="weaponLabel">Remington 700</span>
+				<a id="switcherForward" class="switcherLink"> > </a>
+			</div>
+		</div>
+		<div id="instructionsContainer" class="controlsContainer">
+			<h1>Controls</h1>
+			<ul>
+				<li><strong>Rotate:</strong> Click and drag.</li>
+				<br>
+				<li><strong>Center camera:</strong> Right-click on object to center on.</li>
+				<br>
+				<li><strong>Take components apart:</strong> Click on component.</li>
+				<br>
+				<li><strong>Put components back together:</strong> Hold ctrl key and click on component.</li>
+			</ul>
+		</div>
+	</body>
+</html>

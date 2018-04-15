@@ -1,0 +1,15 @@
+{
+  "name": "project_remington",
+  "version": "1.0.0",
+  "description": "A 3D simulation of the Remington Model 700 rifle.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ./node_modules/harp/bin/harp server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Y Kooistra & T Kruijshaar",
+  "license": "ISC",
+  "devDependencies": {
+    "harp": "^0.24.1"
+  }
+}
