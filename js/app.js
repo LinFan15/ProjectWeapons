@@ -119,7 +119,7 @@ function init() {
 
     // Setup all sounds
     var soundId = 0;
-    var sounds = [];
+    sounds = [];
     sounds.push(new Howl({
         src: ['music/Volatile Reaction.mp3'],
         volume: 1,
@@ -165,6 +165,16 @@ function init() {
         }
     }));
 
+    sounds.push(new Howl({
+        src: ['music/R700_Sound.mp3'],
+        volume: 1,
+        onplay:function() {
+            savedCameraDirection = camera.getWorldDirection();
+            camera.rotateX(5 * (Math.PI / 180));
+            shot_fired = true;
+        }
+    }));
+
     sounds[soundId].play();
 
     // Put camera in a better position
@@ -191,7 +201,7 @@ function init() {
 document.getElementsByTagName('canvas')[0].onclick = function(event) {
     if(firstPerson) {
         if(document.pointerLockElement ===  document.getElementsByTagName('canvas')[0]) {
-            shot_fired = true;
+            sounds[5].play();
         }
         else {
             document.getElementsByTagName('canvas')[0].requestPointerLock();
@@ -450,7 +460,7 @@ function render() {
 
     if(shot_fired) {
         shot_fired = false;
-        raycaster.set(camera.position, camera.getWorldDirection());
+        raycaster.set(camera.position, savedCameraDirection);
 
         var intersects = raycaster.intersectObject(target_plane);
         if(intersects.length > 0) {
