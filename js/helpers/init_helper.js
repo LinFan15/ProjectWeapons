@@ -7,7 +7,8 @@ var weapons = [[]];
 var currentWeapon = 1;
 var target_plane;
 var shot_fired = false;
-var circles = [];
+var circles = [], sounds =[];
+var savedCameraDirection = THREE.Vector3();
 var firstPerson = true;
 
 var manager = new THREE.LoadingManager();
