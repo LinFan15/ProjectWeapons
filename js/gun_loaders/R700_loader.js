@@ -1,7 +1,7 @@
 // Set up mtl loader for materials
 function load_R700(resolve) {
     var mtlLoader = new THREE.MTLLoader(manager);
-    mtlLoader.setPath('objects/');
+    mtlLoader.setPath('objects/R700/');
     mtlLoader.load('R700.mtl', function(materials) {
 
         materials.preload();
@@ -9,7 +9,7 @@ function load_R700(resolve) {
         // Set up object loader with previously loaded material
         var objLoader = new THREE.OBJLoader(manager);
         objLoader.setMaterials(materials);
-        objLoader.setPath('objects/');
+        objLoader.setPath('objects/R700/');
         objLoader.load('R700.obj', function (object) {
             scene.add(object);
             object.updateMatrixWorld();
