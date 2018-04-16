@@ -5,6 +5,10 @@ var ctrlHeld = false;
 var animation = [], animated = [], animationPending = false;
 var weapons = [[]];
 var currentWeapon = 1;
+var target_plane;
+var shot_fired = false;
+var circles = [];
+var firstPerson = true;
 
 var manager = new THREE.LoadingManager();
 

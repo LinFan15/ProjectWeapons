@@ -27,8 +27,11 @@ canvas {
 #instructionsContainer {
     right: 0;
     top: 0;
-    height: 300px;
+    height: 345px;
     width: 415px;
+}
+.hidden {
+    visibility: hidden;
 }
 h1, span, a {
     color: white;
