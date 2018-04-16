@@ -1,9 +1,16 @@
+if(getParameterByName('mode') === 'pl') {
+    firstPerson = true;
+    init_pointer();
+}
+else {
+    firstPerson = false;
+    init_orbit();
+}
 
-init();
 animate();
 
 // Initialize variables, load 3D objects and setup scene.
-function init() {
+function init_orbit() {
     clock = new THREE.Clock();
     scene = new THREE.Scene();
     camera = new THREE.PerspectiveCamera( 75, window.innerWidth/window.innerHeight, 0.1, 1000 );
@@ -11,16 +18,6 @@ function init() {
     // Allows us to rotate the camera around a point in world space.
     controls = new THREE.OrbitControls( camera );
     controls.autoRotate = true;
-
-    renderer = new THREE.WebGLRenderer();
-    renderer.setSize( window.innerWidth, window.innerHeight );
-    document.body.appendChild( renderer.domElement );
-
-    scene.background = new THREE.TextureLoader().load("textures/Metal-and-Iron-Background-69.jpg");
-
-    var light = new THREE.AmbientLight( 0xffffff, 4 );
-    light.position.set( 1, 1, 1 ).normalize();
-    scene.add( light );
 
     // Set function to show progress of 3d model import in dev console.
     manager.onProgress = function(item, loaded, total) {
@@ -39,17 +36,86 @@ function init() {
         controls.update();
 
 
-        weapons.push([objectGroup, 'R600']);
+        weapons.push([objectGroup, 'Remington 700']);
+        shot_fired = false;
     });
 
-    var load = new Promise((resolve, reject) => {
+    /*var load = new Promise((resolve, reject) => {
         load_R700(resolve);
     });
 
     load.then(() => {
         weapons.push([objectGroup, 'R700']);
         objectGroup.x += 1200 * weapons.length;
+    });*/
+    firstPerson = false;
+    init();
+}
+
+function init_pointer() {
+    document.getElementById('clearContainer').classList.toggle('hidden');
+
+    clock = new THREE.Clock();
+    scene = new THREE.Scene();
+    camera = new THREE.PerspectiveCamera( 75, window.innerWidth/window.innerHeight, 0.1, 1000 );
+    controls = new THREE.PointerLockControls(camera);
+    scene.add(controls.getObject());
+    controls.enabled = true;
+
+    var geometry = new THREE.PlaneBufferGeometry( 20, 20, 32 );
+    var material = new THREE.MeshBasicMaterial( {color: 0xffffff, side: THREE.DoubleSide} );
+    var texture = new THREE.TextureLoader().load( "textures/target.png" );
+    material.map = texture;
+    target_plane = new THREE.Mesh( geometry, material );
+    scene.add( target_plane );
+
+    var vec = new THREE.Vector3(0, 0, - 200);
+    vec.applyQuaternion(camera.quaternion);
+    target_plane.position.copy(vec);
+
+    // Set function to show progress of 3d model import in dev console.
+    manager.onProgress = function(item, loaded, total) {
+        console.log(item, loaded, total);
+    };
+
+    var load = new Promise((resolve, reject) => {
+        load_R700(resolve);
     });
+
+    load.then(() => {
+        objectGroup.x += 1200 * weapons.length;
+        camera.add(objectGroup);
+        objectGroup.position.set(1, -1, 0.5);
+        objectGroup.rotateX(-1.5708);
+        weapons.push([objectGroup, 'Remington 700']);
+        shot_fired = false;
+    });
+
+    firstPerson = true;
+    init();
+}
+
+function init() {
+    renderer = new THREE.WebGLRenderer();
+    renderer.setSize( window.innerWidth, window.innerHeight );
+    document.body.appendChild( renderer.domElement );
+
+    //scene.background = new THREE.TextureLoader().load("textures/Metal-and-Iron-Background-69.jpg");
+    var path = "textures/cubemap/Daylight_Box_";
+    var format = ".bmp";
+    var urls = [
+        path + "Right" + format, path + "Left" + format,
+        path + "Top" + format, path + "Bottom" + format,
+        path + "Front" + format, path + "Back" + format
+    ];
+
+    var mappingCube = new THREE.CubeTextureLoader().load(urls);
+    mappingCube.format = THREE.RGBFormat;
+    scene.background = mappingCube;
+
+    var light = new THREE.AmbientLight( 0xffffff, 4 );
+    light.position.set( 1, 1, 1 ).normalize();
+    scene.add( light );
 
     // Setup all sounds
     var soundId = 0;
@@ -110,6 +176,8 @@ function init() {
     // Add necessary event listeners
     document.getElementById('switcherBack').onclick = onSwitcherBackClick;
     document.getElementById('switcherForward').onclick = onSwitcherForwardClick;
+    document.getElementById('clearBtn').onclick = onClearBtnClick;
+    document.getElementById('modeSwitchBtn').onclick = onSwitchBtnClicked;
 
     document.addEventListener( 'keydown', onDocumentKeyDown, false );
     document.addEventListener( 'keyup', onDocumentKeyUp, false );
@@ -118,7 +186,38 @@ function init() {
     document.addEventListener( 'wheel', onDocumentMouseWheel, false);
 
     window.addEventListener( 'resize', onWindowResize, false );
+}
 
+document.getElementsByTagName('canvas')[0].onclick = function(event) {
+    if(firstPerson) {
+        if(document.pointerLockElement ===  document.getElementsByTagName('canvas')[0]) {
+            shot_fired = true;
+        }
+        else {
+            document.getElementsByTagName('canvas')[0].requestPointerLock();
+        }
+    }
+}
+
+
+function onClearBtnClick() {
+    for(var i = 0; i < circles.length; i++) {
+        scene.remove(circles[i]);
+        circles.splice(i, 1);
+    }
+}
+
+function onSwitchBtnClicked() {
+    var url = window.location.href;
+    if(url.indexOf('?') >= 0) {
+        url = url.substring(0, url.indexOf('?'));
+    }
+    if(!firstPerson) {
+        window.location.replace(url + '?mode=pl');
+    }
+    else {
+        window.location.replace(url + '?mode=ob');
+    }
 }
 
 function onSwitcherBackClick() {
@@ -182,7 +281,7 @@ function onDocumentMouseMove( event ) {
 
 function onDocumentMouseUp( event ) {
     // If no animation is running and the user clicked on a 3d object, process input
-    if(!animationPending && INTERSECTED !== null) {
+    if(!animationPending && INTERSECTED !== null && !firstPerson) {
         event.preventDefault();
 
         // If user clicked left mouse button, set the necessary animation
@@ -335,7 +434,7 @@ function render() {
     raycaster.setFromCamera(mouse, camera);
     var intersects = raycaster.intersectObjects(objectGroup.children);
 
-    if (intersects.length > 0) {
+    if (intersects.length > 0 && !firstPerson) {
         document.getElementsByTagName('html')[0].style.cursor = 'pointer';
         if (INTERSECTED !== intersects[0].object) {
             if (INTERSECTED) INTERSECTED.material.emissive.setHex(INTERSECTED.currentHex);
@@ -348,6 +447,25 @@ function render() {
         if (INTERSECTED) INTERSECTED.material.emissive.setHex(INTERSECTED.currentHex);
         INTERSECTED = null;
     }
+
+    if(shot_fired) {
+        shot_fired = false;
+        raycaster.set(camera.position, camera.getWorldDirection());
+
+        var intersects = raycaster.intersectObject(target_plane);
+        if(intersects.length > 0) {
+            var circleGeometry = new THREE.CircleGeometry(1, 32);
+            var material = new THREE.MeshBasicMaterial({color: 0xff0000 });
+            var circle = new THREE.Mesh(circleGeometry, material);
+            scene.add(circle);
+            circle.position.x = intersects[0].point.x;
+            circle.position.y = intersects[0].point.y;
+            circle.position.z = -199;
+
+            circles.push(circle);
+        }
+    }
+
 
     renderer.render(scene, camera);
 }

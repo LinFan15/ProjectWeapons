@@ -8,9 +8,11 @@
 		<script src="js/three.js"></script>
 		<script src="js/inflate.min.js"></script>
         <script src="js/controls/OrbitControls.js"></script>
+        <script src="js/controls/PointerLockControls.js"></script>
 		<script src="js/loaders/OBJLoader.js"></script>
 		<script src="js/loaders/MTLLoader.js"></script>
 		<script src="js/helpers/init_helper.js"></script>
+		<script src="js/helpers/queryparam_helper.js"></script>
 		<script src="js/gun_loaders/R700_loader.js"></script>
 		<script src="js/gun_animators/R700_animator.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.5/howler.min.js" integrity="sha256-kIkROHue+GFp6vhajZDKle5ISIkWrxcJKHZwLzT893A=" crossorigin="anonymous"></script>
@@ -26,6 +28,8 @@
 		<div id="instructionsContainer" class="controlsContainer">
 			<h1>Controls</h1>
 			<ul>
+                <li><strong>Switch weapons:</strong> Use the arrows at the top of the screen to switch weapons.</li>
+                <br>
 				<li><strong>Rotate:</strong> Click and drag.</li>
 				<br>
 				<li><strong>Center camera:</strong> Right-click on object to center on.</li>
@@ -34,6 +38,12 @@
 				<br>
 				<li><strong>Put components back together:</strong> Hold ctrl key and click on component.</li>
 			</ul>
+		</div>
+		<div style="padding: 8px; bottom: 0;" id="clearContainer" class="hidden controlsContainer">
+			<span id="clearBtn" class="switcherLink">Clean</span>
+		</div>
+		<div style="padding: 8px; bottom: 0; right: 0;" class="controlsContainer">
+			<span id="modeSwitchBtn" class="switcherLink">Switch</span>
 		</div>
 	</body>
 </html>
