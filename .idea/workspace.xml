@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8df5c7d-40ad-4da6-a74a-796e7bb0de17" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/controls/PointerLockControls.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/controls/PointerLockControls.js" afterDir="false" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/gun_animators/COLT1911_animator.js" afterPath="$PROJECT_DIR$/js/gun_animators/COLT1911_animator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/gun_loaders/COLT1911_loader.js" afterPath="$PROJECT_DIR$/js/gun_loaders/COLT1911_loader.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,87 +19,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="COLT1911_loader.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/gun_loaders/COLT1911_loader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="36" column="156" selection-start-line="36" selection-start-column="156" selection-end-line="36" selection-end-column="156" />
+            <state relative-caret-position="646">
+              <caret line="137" column="77" lean-forward="false" selection-start-line="137" selection-start-column="77" selection-end-line="137" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="COLT1911_animator.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/gun_animators/COLT1911_animator.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="779" column="9" lean-forward="true" selection-start-line="779" selection-start-column="9" selection-end-line="779" selection-end-column="9" />
               <folding>
-                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#1285#2326#0" expanded="false" />
+                <element signature="e#2412#3453#0" expanded="false" />
+                <element signature="e#3573#4804#0" expanded="false" />
+                <element signature="e#4865#5906#0" expanded="false" />
+                <element signature="e#6018#35862#0" expanded="false" />
+                <element signature="e#35968#42443#0" expanded="false" />
+                <element signature="e#42545#57541#0" expanded="false" />
+                <element signature="e#57603#58619#0" expanded="false" />
+                <element signature="e#58685#59701#0" expanded="false" />
+                <element signature="e#62267#63302#0" expanded="false" />
+                <element signature="e#63373#64407#0" expanded="false" />
+                <element signature="e#64452#65493#0" expanded="false" />
+                <element signature="e#65593#89207#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrbitControls.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/controls/OrbitControls.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1386">
-              <caret line="22" column="54" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="R700_animator.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/gun_animators/R700_animator.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3984">
-              <caret line="223" column="1" selection-start-line="223" selection-start-column="1" selection-end-line="223" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="185" column="30" lean-forward="true" selection-start-line="185" selection-start-column="30" selection-end-line="185" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="queryparam_helper.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/helpers/queryparam_helper.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PointerLockControls.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/controls/PointerLockControls.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="init_helper.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/helpers/init_helper.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="R700_loader.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/gun_loaders/R700_loader.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="54" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -130,6 +79,7 @@
       <find>weapons</find>
       <find>barrel</find>
       <find>PI</find>
+      <find>handle_hammer_connection</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -141,11 +91,11 @@
         <option value="$PROJECT_DIR$/js/gun_loaders/R700_loader.js" />
         <option value="$PROJECT_DIR$/js/gun_loaders/COLT1911.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/gun_animators/COLT1911_animator.js" />
-        <option value="$PROJECT_DIR$/js/gun_loaders/COLT1911_loader.js" />
         <option value="$PROJECT_DIR$/js/gun_animators/R700_animator.js" />
         <option value="$PROJECT_DIR$/js/controls/PointerLockControls.js" />
         <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/js/gun_animators/COLT1911_animator.js" />
+        <option value="$PROJECT_DIR$/js/gun_loaders/COLT1911_loader.js" />
       </list>
     </option>
   </component>
@@ -163,18 +113,34 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="397" />
+    <option name="width" value="1530" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -194,14 +160,26 @@
               <item name="ProjectWeapons" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjectWeapons" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="gun_animators" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectWeapons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectWeapons" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="gun_loaders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectWeapons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectWeapons" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="loaders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,153 +202,6 @@
       <recent name="C:\Users\Kruishaar\Dropbox\NHL\Jaar 2\Graphics\ProjectWeapons\objects\R700" />
     </key>
   </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/index.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/app.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/gun_loaders/R700_loader.js</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/ProjectWeapons.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/modules.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/gun_animators/COLT1911_animator.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/gun_loaders/COLT1911_loader.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/objects/COLT1911/COLT1911.mtl</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/objects/COLT1911/COLT1911.obj</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/objects/R700/R700.mtl</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/objects/R700/R700.obj</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/objects/R700/textures/R700_materials_barrel_bottom_Specular.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/objects/R700/textures/R700_materials_barrel_ring_Specular.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/objects/R700/textures/R700_materials_barrel_upper_Specular.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/objects/R700/textures/R700_materials_bolt_Specular.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/objects/R700/textures/R700_materials_colf_Specular.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/objects/R700/textures/R700_materials_colf_bottom_Specular.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/objects/R700/textures/R700_materials_trigger_Specular.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/objects/R700/textures/R700_materials_trigger_gaurd_Specular.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/objects/R700/textures/R700_materials_trigger_housing_Specular.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/objects/S&amp;W_Model_No53/S&amp;W_Model_No53.mtl</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/objects/S&amp;W_Model_No53/S&amp;W_Model_No53.obj</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/objects/SIG_SG_550_SNIPER/SIG_SG_550_SNIPER.mtl</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/objects/SIG_SG_550_SNIPER/SIG_SG_550_SNIPER.obj</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/objects/SIG_SG_552_COMMANDO/SIG_SG_552_COMMANDO.mtl</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/objects/SIG_SG_552_COMMANDO/SIG_SG_552_COMMANDO.obj</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/objects/R700.mtl</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/objects/R700.obj</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/objects/R700_materials_barrel_bottom_Specular.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/objects/R700_materials_barrel_ring_Specular.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/objects/R700_materials_barrel_upper_Specular.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/objects/R700_materials_bolt_Specular.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/objects/R700_materials_colf_Specular.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/objects/R700_materials_colf_bottom_Specular.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/objects/R700_materials_trigger_Specular.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/objects/R700_materials_trigger_gaurd_Specular.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/objects/R700_materials_trigger_housing_Specular.png</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
-  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -383,12 +214,23 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ProjectWeapons/index.html" />
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7212e3e3-8ca9-4d82-ac5b-53e6aef8b9a7" name="Default" comment="" />
+      <changelist id="e8df5c7d-40ad-4da6-a74a-796e7bb0de17" name="Default" comment="" />
       <created>1508859495866</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -411,6 +253,7 @@
       <workItem from="1523897465432" duration="17087000" />
       <workItem from="1523922448595" duration="2518000" />
       <workItem from="1523970422145" duration="2831000" />
+      <workItem from="1523987046487" duration="9887000" />
     </task>
     <task id="LOCAL-00001" summary="WIP weapon switcher and refactor">
       <created>1523816816383</created>
@@ -451,31 +294,29 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29299000" />
+    <option name="totallyTimeSpent" value="39186000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <frame x="397" y="0" width="1530" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15295358" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010548" side_tool="true" visible="true" weight="0.3293348" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49894515" weight="0.32824427" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32934782" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49894515" visible="true" weight="0.3293348" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991276" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.14805058" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50603217" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,60 +360,59 @@
     <MESSAGE value="Added resources" />
     <option name="LAST_COMMIT_MESSAGE" value="Added resources" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/controls/OrbitControls.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="54" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/gun_animators/R700_animator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2754">
-          <caret line="153" column="27" selection-start-line="153" selection-start-column="27" selection-end-line="153" selection-end-column="27" />
+          <caret line="153" column="27" lean-forward="false" selection-start-line="153" selection-start-column="27" selection-end-line="153" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/controls/PointerLockControls.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="26" />
+          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/helpers/init_helper.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/gun_loaders/R700_loader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1242">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
-          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+          <caret line="29" column="15" lean-forward="false" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/loaders/MTLLoader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9918">
-          <caret line="551" selection-start-line="551" selection-end-line="551" />
+          <caret line="551" column="0" lean-forward="false" selection-start-line="551" selection-start-column="0" selection-end-line="551" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7218">
-          <caret line="401" column="20" selection-start-line="401" selection-start-column="20" selection-end-line="401" selection-end-column="20" />
+          <caret line="401" column="20" lean-forward="false" selection-start-line="401" selection-start-column="20" selection-end-line="401" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -586,189 +426,189 @@
     <entry file="file://$PROJECT_DIR$/js/controls/OrbitControls.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="22" column="54" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="54" />
+          <caret line="22" column="54" lean-forward="false" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/gun_animators/R700_animator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2754">
-          <caret line="153" column="27" selection-start-line="153" selection-start-column="27" selection-end-line="153" selection-end-column="27" />
+          <caret line="153" column="27" lean-forward="false" selection-start-line="153" selection-start-column="27" selection-end-line="153" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/controls/PointerLockControls.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="26" />
+          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/helpers/init_helper.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/gun_loaders/R700_loader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1242">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
-          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+          <caret line="29" column="15" lean-forward="false" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/loaders/MTLLoader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9918">
-          <caret line="551" selection-start-line="551" selection-end-line="551" />
+          <caret line="551" column="0" lean-forward="false" selection-start-line="551" selection-start-column="0" selection-end-line="551" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1026">
-          <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
+          <caret line="57" column="44" lean-forward="false" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2484">
-          <caret line="138" column="65" selection-start-line="138" selection-start-column="65" selection-end-line="138" selection-end-column="65" />
+          <caret line="138" column="65" lean-forward="false" selection-start-line="138" selection-start-column="65" selection-end-line="138" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/loaders/MTLLoader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9918">
-          <caret line="551" selection-start-line="551" selection-end-line="551" />
+          <caret line="551" column="0" lean-forward="false" selection-start-line="551" selection-start-column="0" selection-end-line="551" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/loaders/OBJLoader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12060">
-          <caret line="670" selection-start-line="670" selection-end-line="670" />
+          <caret line="670" column="0" lean-forward="false" selection-start-line="670" selection-start-column="0" selection-end-line="670" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/loaders/MTLLoader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9367">
-          <caret line="551" selection-start-line="551" selection-end-line="551" />
+          <caret line="551" column="0" lean-forward="false" selection-start-line="551" selection-start-column="0" selection-end-line="551" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/loaders/OBJLoader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11390">
-          <caret line="670" selection-start-line="670" selection-end-line="670" />
+          <caret line="670" column="0" lean-forward="false" selection-start-line="670" selection-start-column="0" selection-end-line="670" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/loaders/MTLLoader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9367">
-          <caret line="551" selection-start-line="551" selection-end-line="551" />
+          <caret line="551" column="0" lean-forward="false" selection-start-line="551" selection-start-column="0" selection-end-line="551" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/loaders/OBJLoader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11390">
-          <caret line="670" selection-start-line="670" selection-end-line="670" />
+          <caret line="670" column="0" lean-forward="false" selection-start-line="670" selection-start-column="0" selection-end-line="670" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/loaders/MTLLoader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9367">
-          <caret line="551" selection-start-line="551" selection-end-line="551" />
+          <caret line="551" column="0" lean-forward="false" selection-start-line="551" selection-start-column="0" selection-end-line="551" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/loaders/OBJLoader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11390">
-          <caret line="670" selection-start-line="670" selection-end-line="670" />
+          <caret line="670" column="0" lean-forward="false" selection-start-line="670" selection-start-column="0" selection-end-line="670" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/loaders/MTLLoader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9367">
-          <caret line="551" selection-start-line="551" selection-end-line="551" />
+          <caret line="551" column="0" lean-forward="false" selection-start-line="551" selection-start-column="0" selection-end-line="551" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/loaders/OBJLoader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11390">
-          <caret line="670" selection-start-line="670" selection-end-line="670" />
+          <caret line="670" column="0" lean-forward="false" selection-start-line="670" selection-start-column="0" selection-end-line="670" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/loaders/MTLLoader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9367">
-          <caret line="551" selection-start-line="551" selection-end-line="551" />
+          <caret line="551" column="0" lean-forward="false" selection-start-line="551" selection-start-column="0" selection-end-line="551" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/loaders/OBJLoader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11390">
-          <caret line="670" selection-start-line="670" selection-end-line="670" />
+          <caret line="670" column="0" lean-forward="false" selection-start-line="670" selection-start-column="0" selection-end-line="670" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/loaders/MTLLoader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9367">
-          <caret line="551" selection-start-line="551" selection-end-line="551" />
+          <caret line="551" column="0" lean-forward="false" selection-start-line="551" selection-start-column="0" selection-end-line="551" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/loaders/OBJLoader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11390">
-          <caret line="670" selection-start-line="670" selection-end-line="670" />
+          <caret line="670" column="0" lean-forward="false" selection-start-line="670" selection-start-column="0" selection-end-line="670" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/loaders/MTLLoader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9367">
-          <caret line="551" selection-start-line="551" selection-end-line="551" />
+          <caret line="551" column="0" lean-forward="false" selection-start-line="551" selection-start-column="0" selection-end-line="551" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/loaders/OBJLoader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11390">
-          <caret line="670" selection-start-line="670" selection-end-line="670" />
+          <caret line="670" column="0" lean-forward="false" selection-start-line="670" selection-start-column="0" selection-end-line="670" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/loaders/MTLLoader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9367">
-          <caret line="551" selection-start-line="551" selection-end-line="551" />
+          <caret line="551" column="0" lean-forward="false" selection-start-line="551" selection-start-column="0" selection-end-line="551" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/loaders/OBJLoader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11390">
-          <caret line="670" selection-start-line="670" selection-end-line="670" />
+          <caret line="670" column="0" lean-forward="false" selection-start-line="670" selection-start-column="0" selection-end-line="670" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -776,98 +616,133 @@
     <entry file="file://$PROJECT_DIR$/js/inflate.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="731" selection-start-line="14" selection-start-column="731" selection-end-line="14" selection-end-column="731" />
+          <caret line="14" column="731" lean-forward="false" selection-start-line="14" selection-start-column="731" selection-end-line="14" selection-end-column="731" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/loaders/OBJLoader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12060">
-          <caret line="670" selection-start-line="670" selection-end-line="670" />
+          <caret line="670" column="0" lean-forward="false" selection-start-line="670" selection-start-column="0" selection-end-line="670" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/loaders/MTLLoader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9918">
-          <caret line="551" selection-start-line="551" selection-end-line="551" />
+          <caret line="551" column="0" lean-forward="false" selection-start-line="551" selection-start-column="0" selection-end-line="551" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/helpers/queryparam_helper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        <state relative-caret-position="442">
+          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/helpers/init_helper.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        <state relative-caret-position="170">
+          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/Web.iml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="36" column="156" selection-start-line="36" selection-start-column="156" selection-end-line="36" selection-end-column="156" />
+        <state relative-caret-position="612">
+          <caret line="36" column="156" lean-forward="false" selection-start-line="36" selection-start-column="156" selection-end-line="36" selection-end-column="156" />
           <folding>
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/gun_animators/R700_animator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3984">
-          <caret line="223" column="1" selection-start-line="223" selection-start-column="1" selection-end-line="223" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
-          <caret line="9228" column="12" selection-start-line="9228" selection-start-column="12" selection-end-line="9228" selection-end-column="12" />
+          <caret line="9228" column="12" lean-forward="false" selection-start-line="9228" selection-start-column="12" selection-end-line="9228" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/controls/OrbitControls.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1386">
-          <caret line="22" column="54" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="54" />
+        <state relative-caret-position="221">
+          <caret line="22" column="54" lean-forward="false" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="209" column="74" lean-forward="true" selection-start-line="209" selection-start-column="74" selection-end-line="209" selection-end-column="74" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/gun_loaders/R700_loader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="54" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="54" />
+        <state relative-caret-position="306">
+          <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/controls/PointerLockControls.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <caret line="38" column="30" lean-forward="false" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
+    <entry file="file://$PROJECT_DIR$/js/gun_animators/R700_animator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="185" column="30" lean-forward="true" selection-start-line="185" selection-start-column="30" selection-end-line="185" selection-end-column="30" />
+        <state relative-caret-position="747">
+          <caret line="223" column="1" lean-forward="false" selection-start-line="223" selection-start-column="1" selection-end-line="223" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/gun_animators/COLT1911_animator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="779" column="9" lean-forward="true" selection-start-line="779" selection-start-column="9" selection-end-line="779" selection-end-column="9" />
+          <folding>
+            <element signature="e#1285#2326#0" expanded="false" />
+            <element signature="e#2412#3453#0" expanded="false" />
+            <element signature="e#3573#4804#0" expanded="false" />
+            <element signature="e#4865#5906#0" expanded="false" />
+            <element signature="e#6018#35862#0" expanded="false" />
+            <element signature="e#35968#42443#0" expanded="false" />
+            <element signature="e#42545#57541#0" expanded="false" />
+            <element signature="e#57603#58619#0" expanded="false" />
+            <element signature="e#58685#59701#0" expanded="false" />
+            <element signature="e#62267#63302#0" expanded="false" />
+            <element signature="e#63373#64407#0" expanded="false" />
+            <element signature="e#64452#65493#0" expanded="false" />
+            <element signature="e#65593#89207#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/gun_loaders/COLT1911_loader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="137" column="77" lean-forward="false" selection-start-line="137" selection-start-column="77" selection-end-line="137" selection-end-column="77" />
+          <folding />
         </state>
       </provider>
     </entry>

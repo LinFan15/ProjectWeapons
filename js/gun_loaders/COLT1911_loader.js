@@ -27,19 +27,19 @@ function load_COLT1911(resolve) {
                     animated.push({object: childObject, phase: 1, maxPhase: 2});
                 }
                 else if (childObject.name === "colt_kannon_inside") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 3});
+                    animated.push({object: childObject, phase: 1, maxPhase: 5});
                 }
                 else if (childObject.name === "colt_kannon_inside_inner") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 2});
+                    animated.push({object: childObject, phase: 1, maxPhase: 5});
                 }
                 else if (childObject.name === "colt_kannon_inside_inner_placer") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 3});
+                    animated.push({object: childObject, phase: 1, maxPhase: 5});
                 }
                 else if (childObject.name === "colt_kannon_inside_pin") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 4});
+                    animated.push({object: childObject, phase: 1, maxPhase: 5});
                 }
                 else if (childObject.name === "colt_kannon_outside") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 4});
+                    animated.push({object: childObject, phase: 1, maxPhase: 5});
                 }
                 else if (childObject.name === "colt_bullet_1") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
@@ -99,73 +99,73 @@ function load_COLT1911(resolve) {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
                 else if (childObject.name === "colt_handle") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 3});
+                    animated.push({object: childObject, phase: 1, maxPhase: 4});
                 }
                 else if (childObject.name === "colt_handle_back_lower") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 3});
+                    animated.push({object: childObject, phase: 1, maxPhase: 4});
                 }
                 else if (childObject.name === "colt_handle_back_lower_screw_lower") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 3});
+                    animated.push({object: childObject, phase: 1, maxPhase: 4});
                 }
                 else if (childObject.name === "colt_handle_back_lower_screw_upper") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 3});
+                    animated.push({object: childObject, phase: 1, maxPhase: 4});
                 }
                 else if (childObject.name === "colt_handle_back_upper") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 3});
+                    animated.push({object: childObject, phase: 1, maxPhase: 4});
                 }
                 else if (childObject.name === "colt_handle_hammer_connection") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 3});
+                    animated.push({object: childObject, phase: 1, maxPhase: 2});
                 }
                 else if (childObject.name === "colt_handle_hammer_connection_pin") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 3});
+                    animated.push({object: childObject, phase: 1, maxPhase: 2});
                 }
                 else if (childObject.name === "colt_handle_padding_l") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 3});
+                    animated.push({object: childObject, phase: 1, maxPhase: 2});
                 }
                 else if (childObject.name === "colt_handle_padding_l_screw_lower") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 3});
+                    animated.push({object: childObject, phase: 1, maxPhase: 2});
                 }
                 else if (childObject.name === "colt_handle_padding_l_screw_upper") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 3});
+                    animated.push({object: childObject, phase: 1, maxPhase: 2});
                 }
                 else if (childObject.name === "colt_handle_padding_r") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 3});
+                    animated.push({object: childObject, phase: 1, maxPhase: 2});
                 }
                 else if (childObject.name === "colt_handle_padding_r_scew_upper") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 3});
+                    animated.push({object: childObject, phase: 1, maxPhase: 2});
                 }
                 else if (childObject.name === "colt_handle_padding_r_screw_lower") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 3});
+                    animated.push({object: childObject, phase: 1, maxPhase: 2});
                 }
                 else if (childObject.name === "colt_magazijn") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 3});
+                    animated.push({object: childObject, phase: 1, maxPhase: 2});
                 }
                 else if (childObject.name === "colt_magazijn_bottom") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 3});
+                    animated.push({object: childObject, phase: 1, maxPhase: 2});
                 }
                 else if (childObject.name === "colt_magazijn_bullet_grabbers") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 3});
+                    animated.push({object: childObject, phase: 1, maxPhase: 2});
                 }
                 else if (childObject.name === "colt_magazijn_entrance") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 3});
+                    animated.push({object: childObject, phase: 1, maxPhase: 2});
                 }
                 else if (childObject.name === "colt_magazijn_spring") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 3});
+                    animated.push({object: childObject, phase: 1, maxPhase: 2});
                 }
                 else if (childObject.name === "colt_magazijn_spring_ceiling") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 3});
+                    animated.push({object: childObject, phase: 1, maxPhase: 2});
                 }
                 else if (childObject.name === "colt_savety_switch") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 3});
+                    animated.push({object: childObject, phase: 1, maxPhase: 2});
                 }
                 else if (childObject.name === "colt_savety_switch_screw") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
                 else if (childObject.name === "colt_shoot_pin") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 3});
+                    animated.push({object: childObject, phase: 1, maxPhase: 5});
                 }
                 else if (childObject.name === "colt_trekker") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 3});
+                    animated.push({object: childObject, phase: 1, maxPhase: 2});
                 }
             });
             resolve();
