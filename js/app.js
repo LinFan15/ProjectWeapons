@@ -188,6 +188,16 @@ function init() {
         }
     }));
 
+    sounds.push(new Howl({
+        src: ['music/Colt_Sound.mp3'],
+        volume: 1,
+        onplay:function() {
+            savedCameraDirection = camera.getWorldDirection();
+            controls.doRecoil();
+            shot_fired = true;
+        }
+    }));
+
     sounds[soundId].play();
 
     // Put camera in a better position
@@ -214,7 +224,12 @@ function init() {
 document.getElementsByTagName('canvas')[0].onclick = function(event) {
     if(firstPerson) {
         if(document.pointerLockElement ===  document.getElementsByTagName('canvas')[0]) {
-            sounds[5].play();
+            if(weapons[currentWeapon][1] === 'Remington 700') {
+                sounds[5].play();
+            }
+            else if (weapons[currentWeapon][1] === 'Colt 1911') {
+                sounds[6].play();
+            }
         }
         else {
             document.getElementsByTagName('canvas')[0].requestPointerLock();
