@@ -20,151 +20,151 @@ function load_COLT1911(resolve) {
 
             // Set phase information for every imported childObject for animation
             object.children.forEach(function (childObject) {
-                if (childObject.name === "aim_begin") {
+                if (childObject.name === "colt_aim_begin") {
                     animated.push({object: childObject, phase: 1, maxPhase: 2});
                 }
-                else if (childObject.name === "aim_end") {
+                else if (childObject.name === "colt_aim_end") {
                     animated.push({object: childObject, phase: 1, maxPhase: 2});
                 }
-                else if (childObject.name === "barrel_inside") {
+                else if (childObject.name === "colt_kannon_inside") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "barrel_inside_inner") {
+                else if (childObject.name === "colt_kannon_inside_inner") {
                     animated.push({object: childObject, phase: 1, maxPhase: 2});
                 }
-                else if (childObject.name === "barrel_inside_inner_placer") {
+                else if (childObject.name === "colt_kannon_inside_inner_placer") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "barrel_inside_pin") {
+                else if (childObject.name === "colt_kannon_inside_pin") {
                     animated.push({object: childObject, phase: 1, maxPhase: 4});
                 }
-                else if (childObject.name === "barrel_outside") {
+                else if (childObject.name === "colt_kannon_outside") {
                     animated.push({object: childObject, phase: 1, maxPhase: 4});
                 }
-                else if (childObject.name === "bullet_1") {
+                else if (childObject.name === "colt_bullet_1") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "bullet_1_shell") {
+                else if (childObject.name === "colt_bullet_1_shell") {
                     animated.push({object: childObject, phase: 1, maxPhase: 4});
                 }
-                else if (childObject.name === "bullet_2") {
+                else if (childObject.name === "colt_bullet_2") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "bullet_2_shell") {
+                else if (childObject.name === "colt_bullet_2_shell") {
                     animated.push({object: childObject, phase: 1, maxPhase: 2});
                 }
-                else if (childObject.name === "bullet_3") {
+                else if (childObject.name === "colt_bullet_3") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "bullet_3_shell") {
+                else if (childObject.name === "colt_bullet_3_shell") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "bullet_4") {
+                else if (childObject.name === "colt_bullet_4") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "bullet_4_shell") {
+                else if (childObject.name === "colt_bullet_4_shell") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "hammer") {
+                else if (childObject.name === "colt_hammer") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "hammer_connection_begin") {
+                else if (childObject.name === "colt_hammer_connection_begin") {
+                    animated.push({object: childObject, phase: 1, maxPhase: 6});
+                }
+                else if (childObject.name === "colt_hammer_connection_end") {
+                    animated.push({object: childObject, phase: 1, maxPhase: 6});
+                }
+                else if (childObject.name === "colt_hammer_connection_end_holder") {
+                    animated.push({object: childObject, phase: 1, maxPhase: 6});
+                }
+                else if (childObject.name === "colt_hammer_connection_end_holder_pin") {
+                    animated.push({object: childObject, phase: 1, maxPhase: 6});
+                }
+                else if (childObject.name === "colt_hammer_connection_part") {
+                    animated.push({object: childObject, phase: 1, maxPhase: 6});
+                }
+                else if (childObject.name === "colt_hammer_connection_part_inside") {
+                    animated.push({object: childObject, phase: 1, maxPhase: 6});
+                }
+                else if (childObject.name === "colt_hammer_pin") {
+                    animated.push({object: childObject, phase: 1, maxPhase: 6});
+                }
+                else if (childObject.name === "colt_hammer_shoot_connection") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "hammer_connection_end") {
+                else if (childObject.name === "colt_hammer_spring") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "hammer_connection_end_holder") {
+                else if (childObject.name === "colt_hammer_spring_pin") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "hammer_connection_end_holder_pin") {
+                else if (childObject.name === "colt_handle") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "hammer_connection_part") {
+                else if (childObject.name === "colt_handle_back_lower") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "hammer_connection_part_inside") {
+                else if (childObject.name === "colt_handle_back_lower_screw_lower") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "hammer_pin") {
+                else if (childObject.name === "colt_handle_back_lower_screw_upper") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "hammer_shoot_connection") {
+                else if (childObject.name === "colt_handle_back_upper") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "hammer_spring") {
+                else if (childObject.name === "colt_handle_hammer_connection") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "hammer_spring_pin") {
+                else if (childObject.name === "colt_handle_hammer_connection_pin") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "handle") {
+                else if (childObject.name === "colt_handle_padding_l") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "handle_back_lower") {
+                else if (childObject.name === "colt_handle_padding_l_screw_lower") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "handle_back_lower_screw_lower") {
+                else if (childObject.name === "colt_handle_padding_l_screw_upper") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "handle_back_lower_screw_upper") {
+                else if (childObject.name === "colt_handle_padding_r") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "handle_back_upper") {
+                else if (childObject.name === "colt_handle_padding_r_scew_upper") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "handle_hammer_connection") {
+                else if (childObject.name === "colt_handle_padding_r_screw_lower") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "handle_hammer_connection_pin") {
+                else if (childObject.name === "colt_magazijn") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "handle_padding_l") {
+                else if (childObject.name === "colt_magazijn_bottom") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "handle_padding_l_screw_lower") {
+                else if (childObject.name === "colt_magazijn_bullet_grabbers") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "handle_padding_l_screw_upper") {
+                else if (childObject.name === "colt_magazijn_entrance") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "handle_padding_r") {
+                else if (childObject.name === "colt_magazijn_spring") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "handle_padding_r_scew_upper") {
+                else if (childObject.name === "colt_magazijn_spring_ceiling") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "handle_padding_r_screw_lower") {
+                else if (childObject.name === "colt_savety_switch") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "pistol_mag") {
+                else if (childObject.name === "colt_savety_switch_screw") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "mag_bottom") {
+                else if (childObject.name === "colt_shoot_pin") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
-                else if (childObject.name === "mag_bullet_grabbers") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 3});
-                }
-                else if (childObject.name === "mag_entrance") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 3});
-                }
-                else if (childObject.name === "mag_spring") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 3});
-                }
-                else if (childObject.name === "mag_spring_ceiling") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 3});
-                }
-                else if (childObject.name === "savety_switch") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 3});
-                }
-                else if (childObject.name === "savety_switch_screw") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 3});
-                }
-                else if (childObject.name === "shoot_pin") {
-                    animated.push({object: childObject, phase: 1, maxPhase: 3});
-                }
-                else if (childObject.name === "pistol_trigger") {
+                else if (childObject.name === "colt_trekker") {
                     animated.push({object: childObject, phase: 1, maxPhase: 3});
                 }
             });

@@ -40,14 +40,21 @@ function init_orbit() {
         shot_fired = false;
     });
 
-    /*var load = new Promise((resolve, reject) => {
-        load_R700(resolve);
-    });
+    var load2 = new Promise((resolve, reject) => {
+        load_COLT1911(resolve);
+});
 
-    load.then(() => {
-        weapons.push([objectGroup, 'R700']);
+    load2.then(() => {
         objectGroup.x += 1200 * weapons.length;
-    });*/
+    // Center the camera on the imported 3d object by getting the right world coordinates from a BoundingBox
+    var BBoxCenter = new THREE.Box3().setFromObject(objectGroup).getCenter();
+    controls.target.set(BBoxCenter.x, BBoxCenter.y, BBoxCenter.z);
+    controls.update();
+
+
+    weapons.push([objectGroup, 'Colt 1911']);
+    shot_fired = false;
+    });
     firstPerson = false;
     init();
 }
@@ -90,6 +97,19 @@ function init_pointer() {
         weapons.push([objectGroup, 'Remington 700']);
         shot_fired = false;
     });
+
+    var load = new Promise((resolve, reject) => {
+        load_COLT1911(resolve);
+});
+
+    load.then(() => {
+        objectGroup.x += 1200 * weapons.length;
+    camera.add(objectGroup);
+    objectGroup.position.set(1, -1, 0.5);
+    objectGroup.rotateX(-1.5708);
+    weapons.push([objectGroup, 'Colt 1911']);
+    shot_fired = false;
+});
 
     firstPerson = true;
     init();
@@ -325,6 +345,7 @@ function setAnimation(object) {
     // If the control key was held, put parts back together, otherwise take them apart
     var controlHeld = ctrlHeld;
     animate_R700(object, controlHeld);
+    animate_COLT1911(object, controlHeld);
 }
 
 // Execute any queued animations; all animations in the queue will run simultaneously
