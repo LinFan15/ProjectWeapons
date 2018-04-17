@@ -27,6 +27,15 @@ THREE.PointerLockControls = function ( camera ) {
 
     };
 
+    this.doRecoil = function () {
+        if ( scope.enabled === false ) return;
+        yawObject.rotation.y -= 1 * 0.002;
+        pitchObject.rotation.x -= -40 * 0.002;
+
+        pitchObject.rotation.x = Math.max( - PI_2, Math.min( PI_2, pitchObject.rotation.x ) );
+
+    };
+
     this.dispose = function() {
 
         document.removeEventListener( 'mousemove', onMouseMove, false );

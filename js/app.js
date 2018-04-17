@@ -42,20 +42,14 @@ function init_orbit() {
 
     var load2 = new Promise((resolve, reject) => {
         load_COLT1911(resolve);
-});
+    });
 
     load2.then(() => {
         objectGroup.x += 1200 * weapons.length;
-    // Center the camera on the imported 3d object by getting the right world coordinates from a BoundingBox
-    var BBoxCenter = new THREE.Box3().setFromObject(objectGroup).getCenter();
-    controls.target.set(BBoxCenter.x, BBoxCenter.y, BBoxCenter.z);
-    controls.update();
-
-
-    weapons.push([objectGroup, 'Colt 1911']);
-    shot_fired = false;
+        objectGroup.visible = false;
+        weapons.push([objectGroup, 'Colt 1911'])
     });
-    firstPerson = false;
+
     init();
 }
 
@@ -93,23 +87,22 @@ function init_pointer() {
         objectGroup.x += 1200 * weapons.length;
         camera.add(objectGroup);
         objectGroup.position.set(1, -1, 0.5);
-        objectGroup.rotateX(-1.5708);
+        objectGroup.rotateX(-90 * (Math.PI / 180));
         weapons.push([objectGroup, 'Remington 700']);
         shot_fired = false;
     });
 
-    var load = new Promise((resolve, reject) => {
+    var load2 = new Promise((resolve, reject) => {
         load_COLT1911(resolve);
-});
+    });
 
-    load.then(() => {
-        objectGroup.x += 1200 * weapons.length;
-    camera.add(objectGroup);
-    objectGroup.position.set(1, -1, 0.5);
-    objectGroup.rotateX(-1.5708);
-    weapons.push([objectGroup, 'Colt 1911']);
-    shot_fired = false;
-});
+    load2.then(() => {
+        objectGroup.visible = false;
+        camera.add(objectGroup);
+        objectGroup.position.set(-9, -1, -2.5);
+        objectGroup.rotateY(85 * (Math.PI / 180));
+        weapons.push([objectGroup, 'Colt 1911'])
+    });
 
     firstPerson = true;
     init();
@@ -190,7 +183,7 @@ function init() {
         volume: 1,
         onplay:function() {
             savedCameraDirection = camera.getWorldDirection();
-            camera.rotateX(5 * (Math.PI / 180));
+            controls.doRecoil();
             shot_fired = true;
         }
     }));
@@ -251,13 +244,16 @@ function onSwitchBtnClicked() {
 }
 
 function onSwitcherBackClick() {
-    if(currentWeapon === 0) {
+    weapons[currentWeapon][0].visible = false;
+
+    if(currentWeapon === 1) {
         currentWeapon = weapons.length - 1;
     }
     else {
         currentWeapon--;
     }
 
+    weapons[currentWeapon][0].visible = true;
     var BBoxCenter = new THREE.Box3().setFromObject(weapons[currentWeapon][0]).getCenter();
     document.getElementById('weaponLabel').innerText = weapons[currentWeapon][1];
     controls.target.set(BBoxCenter.x, BBoxCenter.y, BBoxCenter.z);
@@ -266,6 +262,8 @@ function onSwitcherBackClick() {
 }
 
 function onSwitcherForwardClick() {
+    weapons[currentWeapon][0].visible = false;
+
     if(currentWeapon + 1 >= weapons.length) {
         currentWeapon = 1;
     }
@@ -273,6 +271,7 @@ function onSwitcherForwardClick() {
         currentWeapon++;
     }
 
+    weapons[currentWeapon][0].visible = true;
     var BBoxCenter = new THREE.Box3().setFromObject(weapons[currentWeapon][0]).getCenter();
     document.getElementById('weaponLabel').innerText = weapons[currentWeapon][1];
     controls.target.set(BBoxCenter.x, BBoxCenter.y, BBoxCenter.z);
